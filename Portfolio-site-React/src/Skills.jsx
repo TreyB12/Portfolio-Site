@@ -14,11 +14,10 @@ export default function Skills () {
         <div className="skills-icons">
         
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 18.1778L16.6192 16.9222L17.2434 10.1444H9.02648L8.82219 7.88889H17.4477L17.6747 5.67778H6.32535L6.96091 12.3556H14.7806L14.5195 15.2222L12 15.8889L9.48045 15.2222L9.32156 13.3778H7.0517L7.38083 16.9222L12 18.1778ZM3 2H21L19.377 20L12 22L4.62295 20L3 2Z"></path>
+        <svg id="html-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 18.1778L16.6192 16.9222L17.2434 10.1444H9.02648L8.82219 7.88889H17.4477L17.6747 5.67778H6.32535L6.96091 12.3556H14.7806L14.5195 15.2222L12 15.8889L9.48045 15.2222L9.32156 13.3778H7.0517L7.38083 16.9222L12 18.1778ZM3 2H21L19.377 20L12 22L4.62295 20L3 2Z"></path>
         <path d="./src/assets/skills-icons/html5-fill.svg"></path>
         </svg>
-        
-        
+       
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.00006 3L4.35006 6.34H17.9401L17.5001 8.5H3.92006L3.26006 11.83H16.8501L16.0901 15.64L10.6101 17.45L5.86006 15.64L6.19006 14H2.85006L2.06006 18L9.91006 21L18.9601 18L20.1601 11.97L20.4001 10.76L21.9401 3H5.00006Z"></path>
         <path d="./src/assets/skills-icons/css3-fill.svg"></path>
         </svg>
@@ -36,7 +35,7 @@ export default function Skills () {
         </svg>
 
         </div>
-
+<hr />
         <section className="skills-body-text">
             <span className="icon-with-text">
             <span className="hammer-text">I love <span className="creating">creating</span></span> 
@@ -50,6 +49,7 @@ export default function Skills () {
             </div>
 
         </section>
+       
 
 
 
