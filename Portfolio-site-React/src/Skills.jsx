@@ -2,6 +2,7 @@
 
 export default function Skills () {
 
+    
     return (
         <>
         <section className="skills-header">
@@ -34,9 +35,22 @@ export default function Skills () {
         <path d="./src/assets/skills-icons/github-fill.svg"></path>
         </svg>
 
-
-        
         </div>
+
+        <section className="skills-body-text">
+            <span className="icon-with-text">
+            <span className="hammer-text">I love <span className="creating">creating</span></span> 
+            
+            
+            </span>
+
+            <div className="paragraph">
+            <p>For as long as I can remember, I've been creating. Whether it's building and tinkering with computers, crafting web apps, developing and researching video games, writing full lengh novels, short stories and screenplays, or even preparing a great meal - creation is at my core.</p>
+            <p>With every project, I strive to improve my creation skills across the board. Through my drive to learn like a sponge, I'm constantly expanding my knowledge through hands-on projects. </p>
+            </div>
+
+        </section>
+
 
 
 

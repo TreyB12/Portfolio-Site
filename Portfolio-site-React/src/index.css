@@ -55,20 +55,43 @@ header {
 }
 
 .top-links a {
-  
+  position: relative;
   margin-right: 2rem;
   color: white;
-  text-decoration: dotted;
+  text-decoration: none;
   font-size: 1.5rem;
   font-weight: 400;
   z-index: 2;
+  font-family: "Inter";
+  transition: color 0.2s ease;
 
+}
+
+.top-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  background-color: #39FFCA;
+  border-radius: 50%;
+  transition: width 0.2s ease, background-color 0.2s ease;
 }
 
 .top-links a:hover {
   color: #39FFCA;
   transition: 0.2s ease;
   text-decoration: underline ;
+}
+
+.top-links a:hover::after {
+  width: 100%;
+  height: 2px;
+  background-color: #39FFCA;
+  
+  border-radius: 0;
 }
 
 .headerBody {
@@ -91,6 +114,7 @@ section > h1 {
 span a {
   color: #39FFCA;
   text-decoration: none;
+ 
 }
 
 span a:hover {
@@ -122,6 +146,7 @@ section > h5 {
   font-weight: 500;
   border-radius: 5px;
   border: none;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 #btn:hover {
@@ -188,12 +213,12 @@ display: flex;
 justify-content: center;
 gap: 2rem;
 background-color: #1E1E1E;
-margin-top: -24rem;
+margin-top: -23rem;
 }
 
 .skills-icons svg {
-width: 3rem;
-height: 3rem;
+width: 3.5rem;
+height: 3.5rem;
 fill: white;
 }
 
@@ -203,3 +228,122 @@ fill: white;
   transition: 0.2s ease;
 }
 
+.skills-body-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 90%;
+  line-height: 1.8;
+  max-width: 800px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  font-size: 1.1rem;
+  margin: 1rem auto;
+}
+
+
+.icon-with-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 100%;
+  
+  
+}
+
+.creating {
+  color: #39FFCA;
+}
+
+.icon-with-text svg {
+  
+  width: 3.3vw;
+  height: 3.3vh;
+  margin-right: 8px;
+  vertical-align: middle;
+  
+}
+
+.icon-with-text svg:hover {
+  color: #39FFCA;
+}
+
+.project-header {
+ background-color: #121212;
+ height: 50vh;
+ display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ z-index: 1;
+ 
+}
+
+#project-header-text {
+
+  color:#39FFCA;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  z-index: 2;
+  margin-top: -375px;
+  background-color: #121212;
+ 
+}
+
+.card {
+  
+  border-radius: 20px;
+  box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.12), 
+    0 4px 8px rgba(0, 0, 0, 0.06), 
+    0 15px 25px rgba(57, 255, 202, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  padding: 20px;
+  margin: 10px;
+color: white;
+  text-align: center;
+  max-width: 400px;
+  width: 300px;
+  flex: 0 0 300px;
+  height: 450px;
+  background-color: #1E1E1E;
+  
+}
+
+.card:hover {
+  box-shadow: 
+    0 15px 30px rgba(0, 0, 0, 0.15), 
+    0 6px 12px rgba(0, 0, 0, 0.1), 
+    0 20px 35px rgba(57, 255, 202, 0.15);
+}
+
+.card-image {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.card-title {
+  font-family: "Inter", sans-serif;
+  color:#39FFCA;
+  margin: 0;
+
+}
+
+.card-text {
+  font-family: "Inter";
+  color: white;
+  flex-grow: 1;
+
+}
