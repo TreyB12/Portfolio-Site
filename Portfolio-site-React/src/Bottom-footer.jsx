@@ -1,8 +1,8 @@
 export default function BottomFooter () {
     return (
-        <>
+        <section className="bottomFooter">
         <section className="name">
-            <h2 className="name-text">Trey Boyd</h2>
+            <h2 className="name-text"><a href="">Trey Boyd</a></h2>
         </section>
 
         <section className="contact">
@@ -33,6 +33,6 @@ export default function BottomFooter () {
 
         </section>
     </div>
-        </>
+        </section>
     )
 }

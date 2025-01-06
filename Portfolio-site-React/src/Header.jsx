@@ -3,7 +3,7 @@ export default function Header () {
     return (
 
     <header>
-        <h2 id="header-name"><a href="">Trey Boyd</a></h2>
+        <h1 id="header-name"><a href="">Trey Boyd</a></h1>
 
         <section className="top-links">
 

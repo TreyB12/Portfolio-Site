@@ -8,7 +8,7 @@ export default function HeaderBody () {
         
         <h1>I'm a <span><a href="">Junior Web Developer</a></span>.</h1>
 
-        <h5>I am passionate about creating intuitive web experiences that solve real problems.</h5>
+        <h5 className="headerParagraph">I am passionate about creating intuitive web experiences that solve real problems.</h5>
 
         </section>
 
