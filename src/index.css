@@ -578,7 +578,9 @@ z-index: 1;
 
 @media (max-width: 768px) {
 
-
+body {
+  overflow-x: hidden;
+}
   /* Adjust the header layout */
   header {
     flex-direction: row;
@@ -667,7 +669,7 @@ z-index: 1;
   .projects-container {
     flex-direction: column;
    
-    margin-top: -22rem;
+    margin-top: -19.5rem;
   }
 
   #project-header {
