@@ -9,6 +9,10 @@ body {
   background-color: #121212;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -304,7 +308,7 @@ hr {
   color: #39FFCA;
 }
 
-.project-header {
+#project-header {
  background-color: #121212;
  height: 50vh;
  display: flex;
@@ -379,6 +383,27 @@ color: white;
   flex-grow: 1;
   font-weight: 200;
 
+}
+
+.card-button {
+  height: 2.5rem;
+  margin-top: -3%;
+  width: 7rem;
+  border-radius: 5px;
+  border: none;
+  font-family: "Inter";
+  font-weight: 00;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.card-button:hover {
+  cursor: pointer;
+  color: #121212;
+  transform: translateY(-10%);
+  background-color: #39FFCA;
+  transition: 0.2s ease;
+  box-shadow: 0px 4px 15px rgba(57, 255, 202, 0.5);
 }
 
 .footer {
