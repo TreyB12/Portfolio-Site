@@ -653,7 +653,7 @@ transform: translateY(130%);
   .projects-container {
     flex-direction: column;
    
-    margin-top: 0.5rem;
+    margin-top: -22rem;
   }
 
   .project-header {
@@ -664,6 +664,7 @@ transform: translateY(130%);
 
   #project-header-text {
     text-align: center;
+    
   }
 
   .card {
