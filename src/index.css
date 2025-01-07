@@ -583,7 +583,7 @@ body {
   width: 100%;
 }
 * {
-  box-sizing: border-box;
+  
 }
   /* Adjust the header layout */
   header {
@@ -608,10 +608,10 @@ body {
     flex-direction: row;
     width: 100%;
     gap: 1rem;
-    margin: 1rem 0;
-    justify-content: flex-start;
+    margin: 1rem 0rem;
     
-    -webkit-overflow-scrolling: touch;
+    
+    
   }
 
   .top-links a {
