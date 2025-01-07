@@ -597,7 +597,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    font-size: 1.5rem;
     margin-left: 1rem; /* Remove left margin on small screens */
   }
 
@@ -607,8 +607,8 @@ body {
     width: 100%;
     gap: 0rem;
     margin: 1rem 0;
-    
-    
+    justify-content: flex-start;
+    padding-right: 3rem;
   }
 
   .top-links a {
@@ -672,7 +672,7 @@ body {
   .projects-container {
     flex-direction: column;
    
-    margin-top: -19.5rem;
+    margin-top: -18.5rem;
   }
 
   #project-header {
