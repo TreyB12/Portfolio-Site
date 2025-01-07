@@ -607,7 +607,7 @@ body {
     width: 100%;
     gap: 1rem;
     justify-content: flex-start; /* Moves the links to the left */
-    margin: 1rem 0rem;
+    margin: 1rem 1rem;
     padding-left: -3rem;
     margin-left: 0rem;
     
