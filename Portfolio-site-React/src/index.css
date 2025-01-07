@@ -633,11 +633,15 @@ z-index: 1;
 
   .button {
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    
   }
 
   #btn, .footer-button {
-    width: 80%;
-    max-width: 300px;
+    width: 330px;
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   #skills-header {
@@ -666,10 +670,13 @@ z-index: 1;
     margin-top: -22rem;
   }
 
-  .project-header {
+  #project-header {
     align-items: center;
-    margin-top: -13rem;
-    margin-bottom: -11rem;
+    margin-top: -3.4rem;
+    margin-bottom: 0rem;
+    display: block !important;
+    visibility: visible !important;
+  
   }
 
   #project-header-text {
@@ -707,9 +714,18 @@ z-index: 1;
     text-align: center;
   }
 
+  .name-text {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+     /* Makes the container fill the viewport height */
+    text-align: center;
+    margin-right: -26.8rem;
+    top: 5%;
+  }
+
   .name-text a {
-    padding-right: 0;
-    transform: none;
+    display: inline-block;
   }
 
   .footer-links {
