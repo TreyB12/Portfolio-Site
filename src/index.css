@@ -576,7 +576,7 @@ z-index: 1;
   transform: translateX(1.5%) translateY(-200%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
 
 body {
   overflow-x: hidden;
