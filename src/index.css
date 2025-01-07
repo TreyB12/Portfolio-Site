@@ -581,6 +581,9 @@ z-index: 1;
 body {
   overflow-x: hidden;
 }
+* {
+  box-sizing: border-box;
+}
   /* Adjust the header layout */
   header {
     flex-direction: row;
