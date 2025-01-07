@@ -7,9 +7,9 @@ export default function Header () {
 
         <section className="top-links">
         
-       <a href="about">About</a>
-        <a href="project-header">Projects</a>
-        <a href="contact">Contact</a>
+       <a href="#skills-header">About</a>
+        <a href="#project-header">Projects</a>
+        <a href="#footer">Contact</a>
 
         </section>
 

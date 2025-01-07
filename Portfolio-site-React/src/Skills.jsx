@@ -5,7 +5,7 @@ export default function Skills () {
     
     return (
         <>
-        <section className="skills-header">
+        <section id="skills-header">
 
         <h1 id="skills-text">My <span>Skills</span></h1>
         

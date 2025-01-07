@@ -2,7 +2,7 @@ export default function BottomFooter () {
     return (
         <section className="bottomFooter">
         <section className="name">
-            <h2 className="name-text"><a href="">Trey Boyd</a></h2>
+            <h2 className="name-text"><a href="#top">Trey Boyd</a></h2>
         </section>
 
         <section className="contact">
@@ -27,9 +27,9 @@ export default function BottomFooter () {
      <div className="footer-links">
         <section className="top-links">
 
-          <a href="about">About</a>
-          <a href="projects">Projects</a>
-          <a href="contact">Contact</a>
+          <a href="#skills-header">About</a>
+          <a href="#project-header">Projects</a>
+          <a href="#footer">Contact</a>
 
         </section>
     </div>

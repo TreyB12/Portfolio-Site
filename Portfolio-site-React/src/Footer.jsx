@@ -1,7 +1,7 @@
 export default function Footer () {
     return (
         <>
-        <section className="footer">
+        <section id="footer">
             <h1 className="footer-header">Contact</h1>
         </section>
 

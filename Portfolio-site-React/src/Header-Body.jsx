@@ -4,9 +4,9 @@ export default function HeaderBody () {
         <>
         <section className="headerBody">
 
-        <h1>Hey! My name is <span id="name"><a href="">Trey Boyd</a></span>.</h1>
+        <h1>Hey! My name is <span id="name"><a href="#skills-header">Trey Boyd</a></span>.</h1>
         
-        <h1>I'm a <span><a href="">Junior Web Developer</a></span>.</h1>
+        <h1>I'm a <span><a href="#project-header">Junior Web Developer</a></span>.</h1>
 
         <h5 className="headerParagraph">I am passionate about creating intuitive web experiences that solve real problems.</h5>
 
@@ -31,7 +31,10 @@ export default function HeaderBody () {
         </div>
 
         <div className="button">
+            <a href="#project-header">
             <button id="btn">Projects</button>
+            </a>
+            
         </div>
         </>
         
