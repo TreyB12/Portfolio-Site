@@ -744,10 +744,11 @@ body {
     transform: none;
     margin-top: -1.5rem;
     margin-right: -1.5rem;
+    transform: translateX(23.5%);
   }
 
   .footer-links a {
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 
   .contact > .social-icons {
