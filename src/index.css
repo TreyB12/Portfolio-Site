@@ -590,6 +590,7 @@ body {
     flex-direction: row;
     height: 10vh;
     padding: 1rem 0;
+    gap: 3rem;
     width: 100%; /* Ensures header doesn't overflow */
   }
 
@@ -609,14 +610,14 @@ body {
     gap: 1rem;
     margin: 1rem 0;
     justify-content: flex-start;
-    padding-right: 0rem;
     
+    -webkit-overflow-scrolling: touch;
   }
 
   .top-links a {
     margin-right: 1rem;
     font-size: 1.4rem;
-    white-space: nowrap;
+    
   }
 
   .headerBody {
