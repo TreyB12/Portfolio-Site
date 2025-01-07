@@ -15,7 +15,7 @@ export default function Projects () {
     
 const projectsData = [
     {
-        image: "./src/images/test.png",
+        image: "./src/images/Investment.png",
         title: "Investment Calculator",
         text: "Track your wealth's exponential growth with this investment calculator. Input your initial investment, contribution frequency, additional deposits, expected returns, and time horizon to see your future portfolio value calculated to the penny.",
         buttonText: "GitHub",
@@ -30,9 +30,9 @@ const projectsData = [
         onButtonClick: () => window.open("https://github.com/TreyB12/Interactive-Timer")
     },
     {
-        image: "https://via.placeholder.com/200",
+        image: "./src/images/chef-claude.png",
         title: "Chef Claude",
-        text: "Description of project 3",
+        text: "Chef Claude is a React-based recipe generator that transforms a list of ingredients into creative culinary possibilities through AI-powered suggestions, developed as a Scrimba tutorial project. The project showcases responsive design principles and modern React practices while solving the common problem of figuring out what to cook with available ingredients.",
         buttonText: "GitHub",
         onButtonClick: () => window.open("https://github.com/TreyB12/Chef-Claude-Repo")
     },
