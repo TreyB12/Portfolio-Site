@@ -580,6 +580,7 @@ z-index: 1;
 
 body {
   overflow-x: hidden;
+  width: 100%;
 }
 * {
   box-sizing: border-box;
@@ -602,13 +603,14 @@ body {
   }
 
   .top-links {
-    
+    display: flex;
     flex-direction: row;
     width: 100%;
-    gap: 0rem;
+    gap: 1rem;
     margin: 1rem 0;
     justify-content: flex-start;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    overflow-x: auto;
   }
 
   .top-links a {
