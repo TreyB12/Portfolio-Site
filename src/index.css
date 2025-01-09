@@ -722,14 +722,14 @@ html, body {
     text-align: center;
   }
 
-  .name-text {
+  .name {
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
      /* Makes the container fill the viewport height */
     text-align: center;
-    margin-right: -26.8rem;
-    top: 5%;
+    margin-right: 0rem;
+    transform: translateY(-55%);
   }
 
   .name-text a {
@@ -755,5 +755,157 @@ html, body {
     
     padding-left: 0;
     margin-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    height: 10vh;
+    gap: 10%;
+  }
+
+  #header-name {
+    display: flex;
+    justify-content: center;
+    
+    width: 20%;
+    
+    
+  }
+
+  .top-links {
+    gap: 5rem;
+    width: 41%;
+  }
+
+  .top-links a {
+    font-size: 1.2rem;
+  }
+
+  .headerBody {
+    height: 50vh;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  #btn {
+    width: 25vw;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .social-icons svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 2.2rem;
+
+  }
+
+  #skills-header {
+    margin-top: 11vh;
+    
+    height: 40vh;
+  }
+
+  #skills-text {
+    font-size: 2rem;
+    margin-top: -2.2rem;
+  }
+
+  .skills-icons svg {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+    padding-top: 10px;
+  }
+
+  .skills-body-text {
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+
+  .icon-with-text {
+    font-size: 1.5rem;
+  }
+
+  .icon-with-text svg {
+    width: 4vw;
+    height: 4vh;
+  }
+
+  .projects-container {
+    flex-wrap: wrap;
+    margin-top: -330px;
+  }
+
+  .card {
+    width: 250px;
+    flex: 0 0 400px;
+    height: 430px;
+  }
+
+  .card-button {
+    font-size: 1rem;
+  }
+
+  .footer-header {
+    font-size: 1.5rem;
+  }
+
+  .footer-text a {
+    font-size: 1.5rem;
+  }
+
+  .footer-button {
+    width: 25vw;
+    font-size: 1.4rem;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    
+    transform: translateY(-250%);
+   
+    
+  }
+
+  .footer-links a {
+    margin-right: 2rem;
+    margin-top: -.5rem;
+    font-size: 1.4rem;
+  }
+
+  .bottomFooter {
+    margin-top: -3rem;
+  }
+
+
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 44rem; /* Reduced margin for a better layout */
+    transform: translateY(15%);
+    font-size: 1.4rem;
+    
+    
+}
+
+  .name-text a {
+    display: inline-block;
+    
+  }
+
+  .contact > .social-icons {
+    padding-left: 40rem;
+    transform: translateY(30%);
   }
 }
