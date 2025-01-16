@@ -50,15 +50,7 @@ const projectsData = [
         buttonText: "GitHub",
         onButtonClick: () => window.open("https://github.com/TreyB12/Portfolio-Site")
     },
-    {
-        image: "/images/site.png",
-        title: "ToDo App",
-        text: "minimalist",
-        buttonText: "GitHub",
-        onButtonClick: () => window.open("https://github.com/TreyB12/Portfolio-Site")
-
-    },
-
+    
 ]
 
 
