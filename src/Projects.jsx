@@ -49,7 +49,15 @@ const projectsData = [
         text: "A minimalist and elegant design showcasing my web development skills. It features tasteful animations, strong color contrast, and effectively communicates all key information about me and my contact details.",
         buttonText: "GitHub",
         onButtonClick: () => window.open("https://github.com/TreyB12/Portfolio-Site")
-    }
+    },
+    {
+        image: "",
+        title: "ToDo App",
+        text: "",
+        buttonText: "GitHub",
+        onButtonClick: () => window.open("")
+
+    },
 
 ]
 
